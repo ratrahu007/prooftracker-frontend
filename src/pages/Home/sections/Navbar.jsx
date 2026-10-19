@@ -12,7 +12,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav aria-label="Main navigation" className="navbar-font w-full border-b border-slate-200 bg-white">
+    <nav aria-label="Main navigation" className="navbar-font w-full text-9xl border-b border-slate-200 bg-white">
       <div className="mx-auto flex min-h-16 w-full max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8">
         <a href="#home" className="flex shrink-0 items-center gap-2.5 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
           <img
