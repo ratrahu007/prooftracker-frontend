@@ -2,10 +2,10 @@ import { useState } from "react";
 import logo from "../../../assets/ProofTracker_ Logo.png";
 
 const navigationLinks = [
-  { label: "Home", href: "#home" },
-  { label: "Features", href: "#features" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "About", href: "#about" },
+  { label: "Home", href: "#" },
+  { label: "Challenges", href: "#problem-section-heading" },
+  { label: "How It Works", href: "#how-it-works-heading" },
+  { label: "About", href: "#about-section-heading" },
 ];
 
 export default function Navbar() {
