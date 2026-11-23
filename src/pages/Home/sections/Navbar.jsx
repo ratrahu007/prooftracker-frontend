@@ -18,7 +18,7 @@ export default function Navbar() {
           <img
             src={logo}
             alt="ProofTracker logo"
-            className="h-9 w-auto max-w-[45vw] object-contain sm:h-11"
+            className="h-[45px] w-[120px] object-contain sm:h-[60px] sm:w-[160px] lg:h-[75px] lg:w-[200px]"
           />
         
         </a>

@@ -1,20 +1,16 @@
-import AboutSection from "./pages/Home/sections/AboutSection";
-import Footer from "./pages/Home/sections/Footer";
-import Hero from "./pages/Home/sections/Hero";
-import HowItWorks from "./pages/Home/sections/HowItWorks";
-import Navbar from "./pages/Home/sections/Navbar";
-import ProblemSection from "./pages/Home/sections/ProblemSection";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PublicLayout from "./layouts/PublicLayout";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <ProblemSection />
-      <HowItWorks />
-      <AboutSection />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<PublicLayout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
