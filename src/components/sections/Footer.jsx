@@ -1,4 +1,4 @@
-import logo from "../../../assets/ProofTracker_ Logo.png";
+import logo from "../../assets/ProofTracker_ Logo.png";
 
 const productLinks = [
   { label: "How It Works", href: "#how-it-works-heading" },

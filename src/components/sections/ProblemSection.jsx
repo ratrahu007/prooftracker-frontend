@@ -1,6 +1,6 @@
-import consistencyIllustration from "../../../assets/problem-consistency.svg";
-import progressIllustration from "../../../assets/problem-progress.svg";
-import accountabilityIllustration from "../../../assets/problem-accountability.svg";
+import consistencyIllustration from "../../assets/problem-consistency.svg";
+import progressIllustration from "../../assets/problem-progress.svg";
+import accountabilityIllustration from "../../assets/problem-accountability.svg";
 
 const problems = [
   {

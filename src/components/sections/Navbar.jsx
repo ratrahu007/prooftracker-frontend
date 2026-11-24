@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../../assets/ProofTracker_ Logo.png";
+import logo from "../../assets/ProofTracker_ Logo.png";
 
 const navigationLinks = [
   { label: "Home", href: "#" },
